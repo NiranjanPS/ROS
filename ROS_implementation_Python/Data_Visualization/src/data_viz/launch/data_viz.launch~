@@ -1,0 +1,8 @@
+<launch>
+	<node pkg="data_viz" type="publisher.py" name="Publisher"
+output="screen">
+	</node>
+	<node pkg="data_viz" type="subscriber.py" name="Subscriber"
+output="screen">
+	</node>
+</launch>
